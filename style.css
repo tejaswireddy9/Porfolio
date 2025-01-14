@@ -199,16 +199,17 @@ section{
     transform: scale(1.05); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-/* Container to ensure proper alignment */
-.container {
-    display: flex; /* Flexbox for centering */
-    justify-content: center; /* Horizontally center the black box */
-    align-items: center; /* Vertically center if needed */
-    padding: 20px; /* Space inside the container */
-    width: 100%; /* Full width of the screen */
-    box-sizing: border-box; /* Include padding in width */
-    overflow: hidden; /* Prevent content from overflowing */
-}
+
+
+/* .container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    overflow: hidden; 
+} */
 /* .black-box{
     position: relative;
     background-color: rgba(16, 15, 15, 0.6);
