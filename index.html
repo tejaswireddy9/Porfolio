@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="queries.css">
@@ -13,7 +13,7 @@
        <div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experience">Skills & Experience</a></li>
             <li><a href="#my projects">My Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -29,7 +29,7 @@
             </div>
             <div class="menu-links"> 
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Skills & Experience</a></li>
             <li><a href="#my projects" onclick="toggleMenu()">My Projects</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
             </div>
@@ -41,9 +41,7 @@
         </div>
         <div class="section__text">
             <h1 class="title">Hi, I'm Tejaswi</h1>
-            <p class="section__text__p1">I'm a data engineer with a strong foundation 
-                in building scalable data pipelines and optimizing ETL processes along
-                with integrating machine learning models to handle complex datasets</p>
+            <p class="section__text__p1">A Data Engineer who likes to make data talk, walk, behave and sometimes dance !!</p>
             <div class="btn-container">
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
                     Contact Me
@@ -61,13 +59,41 @@
             </div>  
         </div>
     </section>
-    <!-- <section id="about">
-        <div class="black-box">
-            <h2>ABOUT</h2>
-            <p> Tejaswi </p>
+    <section id="about">
+        <div class="container">
+            <p class="section__text__p1">Getting into the details..</p> 
+            <h1 class="title">About me !!</h1> 
+            <div class="section-container">
+               <div class="section_pic_container">
+                  <img src="./assets/aboutImage.png" alt="About picture"
+                  class="about-pic">
+               </div>
+               <div class="about-details-container">
+                 <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="icon picture" class="icon">
+                        <h3>Hackathons</h3>
+                        <p>Smart India Hackathon <br />Rural Hackathon <br />Toy Hackathon</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education picture" class="icon">
+                        <h3>Education</h3>
+                        <p>B.E (CSE)- 9.36/10 <br />R.M.D Engineering College <br />M.S (Computer Science)- 4.0/4.0 <br /> University of North Texas </p>
+                    </div>
+                 </div>
+                 <div class="text-container">
+                    <p>
+                        I'm a data engineer with a strong foundation 
+                        in building scalable data pipelines and optimizing ETL processes along
+                        with integrating machine learning models to handle complex datasets.
+                    </p>
+                 </div>
+               </div>
+            </div>
         </div>
+        <img src="./assets/arrow.png" alt="Arrow" class="icon arrow"
+        onclick="location.href='./#experience'"/>
     </section>
-     -->
     <script src="script.js"></script>
 </body>
 </html>
