@@ -158,30 +158,21 @@ a:hover {
   transform: none;
 }
 
-/* SECTIONS */
-
-section {
-  padding-top: 3vh;
-  height: 97vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-}
-
 .section-container {
   display: flex;
+   
 }
 #profile {
-  display: flex;
+  display: flex; 
   justify-content: center;
-  gap: 5rem;
-  height: 80vh;
+  margin-top: 15vh;
 }
 .section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
+
 }
 
 .section__text {
@@ -191,14 +182,25 @@ section {
 
 
 .section__text__p1 {
-  font-size: 1.75rem;
+  font-size: 2.89em;
   margin-bottom: 1rem;
+  font-weight: 300;
+  min-width: 200px;
+  max-width:700px;
+
+
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
-  color:white
+  color:rgb(179, 169, 229);
+  animation: colorChange 1s infinite alternate;
+}
+.title1 {
+  font-size: 3rem;
+  text-align: center;
+  color:rgb(179, 169, 229);
 }
 
 #socials-container {
@@ -207,9 +209,6 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
-
-/* ICONS */
-
 .icon {
   cursor: pointer;
   height: 2.5rem;
@@ -221,7 +220,6 @@ section {
 .icon:active {
   transform: scale(1.1); 
 }
-/* BUTTONS */
 
 .btn-container {
   display: flex;
@@ -230,30 +228,25 @@ section {
 }
 
 .btn {
-  font-weight: 1000;
+  font-weight: 700;
   transition: all 300ms ease;
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
   font-size: 0.9rem;
 }
-
-.btn-color-1{
-  border: rgb(28, 27, 27) 0.1rem solid;
-}
-
 .btn-color-1:hover{
-  cursor: pointer;
+  cursor: grab;
 }
 
 .btn-color-1{
   background:rgb(179, 169, 229);
-  color: white;
+  color: rgb(59, 81, 161);
 }
 
 .btn-color-1:hover {
-  background: rgb(101, 125, 211);
-  color:white
+  background:rgb(101, 125, 211);
+  color:rgb(255, 255, 255)
 }
 
 .btn-container {
@@ -261,15 +254,24 @@ section {
 }
 
 #about{
-  position:relative;
+  position:relative; 
+  justify-self: center;
+  /* justify-content: center; */
+  margin-top: 15vh;
+  /* margin-top: 2vh;  */
 }
 .about-containers{
-  gap:2rem;
+  display:flex;
+  flex-wrap:wrap;
+  gap:2rem; 
+  margin-top: 2rem; 
+  /* justify-content: center; */
   margin-bottom:2rem;
-  margin-top: 2rem;
+  justify-content: center;
 }
 .about-details-container{
-  justify-self:center;
+  display:flex;
+  align-items:center;
   flex-direction: column;
 }
 .about-containers,.about-details-container{
@@ -298,14 +300,91 @@ section {
 
 .text-container p{
   font-size: 1.85rem;
+  min-width:200px;
+  max-width:700px;
 }
 .container{
   position: relative;
   background-color: black;
   border-radius: 15px;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   padding: 53px;
   z-index:1;
   margin-left: 0.1%;
   width:93%;
+  
+}
+
+#experience{
+  margin-top: 15vh;
+  display: flex; 
+  justify-content: space-between; 
+  /* align-items: flex-start; */
+  /* justify-self: center; */
+  justify-content: center;
+  min-height:100vh;
+  margin-bottom: 5vh;
+}
+.experience-details-container{
+  display: flex;
+  justify-content: space-between; 
+  gap: 10px;
+}
+.experience-sub-title{
+  color:white;
+  font-weight:600;
+  font-size:1.95rem;
+  margin-bottom:2rem;
+}
+.article-container{
+  display: grid ;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-content: center;
+
+}
+.article-container article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article-container .icon{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.det-container{
+  padding:1rem;
+  border-radius: 2rem; 
+  text-align:center; 
+  background:  rgb(179, 169, 229);
+  margin-bottom: 1rem;
+  width: 100%; 
+  max-width: 400px; 
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+.det-container p {
+  color:rgb(59, 81, 161); 
+}
+.detail-container{
+  padding: 1.5rem;
+  flex: 1;
+  text-align: center;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  max-width: 400px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.det-container:hover {
+  background: #9caee0; 
+  border-color: rgb(200, 200, 200); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+  opacity: 0.9; 
+  transform: translateX(20px);
 }
