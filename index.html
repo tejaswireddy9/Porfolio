@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="queries.css">
@@ -13,7 +13,7 @@
        <div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experience">Skills & Experience</a></li>
             <li><a href="#my projects">My Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -29,7 +29,7 @@
             </div>
             <div class="menu-links"> 
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Skills & Experience</a></li>
             <li><a href="#my projects" onclick="toggleMenu()">My Projects</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
             </div>
@@ -41,9 +41,7 @@
         </div>
         <div class="section__text">
             <h1 class="title">Hi, I'm Tejaswi</h1>
-            <p class="section__text__p1">I'm a data engineer with a strong foundation 
-                in building scalable data pipelines and optimizing ETL processes along
-                with integrating machine learning models to handle complex datasets</p>
+            <p class="section__text__p1">A Data Enthusiast who likes to make data talk, walk, behave and sometimes dance !!</p>
             <div class="btn-container">
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
                     Contact Me
@@ -61,13 +59,130 @@
             </div>  
         </div>
     </section>
-    <!-- <section id="about">
-        <div class="black-box">
-            <h2>ABOUT</h2>
-            <p> Tejaswi </p>
+    <section id="about">
+        <div class="container">
+            <p class="section__text__p1">Getting into the details..</p> 
+            <h1 class="title1">About me !!</h1> 
+            <div class="section-container">
+               <div class="section__pic-container">
+                  <img src="./assets/aboutImage.png" alt="About picture"
+                  class="about-pic">
+               </div>
+               <div class="about-details-container">
+                 <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="icon picture" class="icon">
+                        <h3>Hackathons</h3>
+                        <p>Smart India Hackathon <br />Rural Hackathon <br />Toy Hackathon</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education picture" class="icon">
+                        <h3>Education</h3>
+                        <p>B.E (CSE)- 9.36/10 <br />R.M.D Engineering College <br />M.S (Computer Science)- 4.0/4.0 <br /> University of North Texas </p>
+                    </div>
+                 </div>
+                 <div class="text-container">
+                    <p>
+                        I’m a data enthusiast with a deep passion for designing scalable data pipelines, optimizing ETL workflows, and integrating machine learning models to handle complex datasets.
+                    </p>
+                 </div>
+               </div>
+            </div>
         </div>
+        <img src="./assets/arrow.png" alt="Arrow" class="icon arrow"
+        onclick="location.href='./#experience'"/>
     </section>
-     -->
+    <section id="experience">
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="detail-container">
+                    <h2 class="experience-sub-title">Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/icons8-python-48.png" alt="python" class="icon"/>
+                            <h3>Python</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-html-48.png" alt="Html" class="icon"/>
+                            <h3>Html</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-javascript-48.png" alt="javascript" class="icon"/>
+                            <h3>Javascript</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-css-48.png" alt="css" class="icon"/>
+                            <h3>CSS</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-kubernetes-48.png" alt="kubernetes" class="icon"/>
+                            <h3>Kubernetes</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-git-48.png" alt="git" class="icon"/>
+                            <h3>Git</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-apache-spark-48.png" alt="Apache Spark" class="icon"/>
+                            <h3>Apache Spark</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-aws-48.png" alt="AWS" class="icon"/>
+                            <h3>AWS</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-docker-48.png" alt="docker" class="icon"/>
+                            <h3>Docker</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-numpy-48.png" alt="numpy" class="icon"/>
+                            <h3>Numpy</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-mongo-db-48.png" alt="mongodb" class="icon"/>
+                            <h3>MongoDB</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-my-sql-48.png" alt="MySQL" class="icon"/>
+                            <h3>MySQL</h3>
+                        </article>
+                    
+                        <article>
+                            <img src="./assets/apache_hive-ar21.svg" alt="Apache hive" class="icon"/>
+                            <h3>Hive</h3>
+                        </article>
+                        <article>
+                            <img src="./assets//icons8-pandas-48.png" alt="pandas" class="icon"/>
+                            <h3>pandas</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-snowflake-48.png" alt="snowflake" class="icon"/>
+                            <h3>Snowflake</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/icons8-power-bi-48.png" alt="power bi" class="icon"/>
+                            <h3>Power BI</h3>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="detail-container">
+                    <h2 class="experience-sub-title">Experience</h2>
+                    <div class="det-container">
+                        <img src="./assets/experience.png" alt="icon picture" class="icon">
+                        <h3>Machine Learning Intern</h3>
+                        <p> Codsoft <br />Jan 2023-March 2023 <br />Technologies used:Python, TensorFlow, Numpy, Pandas,NLP, Keras,CNN, Large language models , Matplotlib and LSTM</p>
+                    </div>
+                    <div class="det-container">
+                        <img src="./assets/education.png" alt="education picture" class="icon">
+                        <h3>Graduate Instructional Assistant</h3>
+                        <p>University of North Texas <br />August 2023- present <br />Skills: Data structures and Algorithms, Object oriented Programming, Dynamic Programming, Greedy programming, Visual Studio</p>
+                    </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow" class="icon arrow"
+        onclick="location.href='./#projects'"/>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
