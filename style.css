@@ -341,6 +341,7 @@ a:hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   justify-content: center;
+  color:rgb(190, 185, 185)
 
 }
 .article-container article{
