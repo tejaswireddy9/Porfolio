@@ -389,3 +389,76 @@ a:hover {
   opacity: 0.9; 
   transform: translateX(20px);
 }
+#projects {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #040f21;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: #16213e;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 300px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  color: #b3a9e5;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #e7e1e1;
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ffb6c1;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  color: #ffd8e4;
+  text-decoration: underline;
+}
+#contact {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #040f21;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: auto;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.contact-container p {
+  margin: 1rem 0;
+}
+
+.contact-info a {
+  color: #ffb6c1;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
